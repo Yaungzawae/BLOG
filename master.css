@@ -1,0 +1,31 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+/* 
+navbar */
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    margin-left: 1rem;
+}
+
+.nav-item a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+#contact{
+    background-color: black;
+    color: white;
+    padding: 3% 10% 4%;
+    text-align: center;
+}
+
+#contact div a i{
+    padding: 0 1% 2%;
+    color: white;
+}
