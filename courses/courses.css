@@ -1,0 +1,13 @@
+.card-header{
+    text-align: center;
+    padding: 5% 0;
+    color: #112D4E;
+}
+
+img{
+    width: 80%;
+}
+
+.card-footer{
+    text-align: center;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aref+Ruqaa&family=Dancing+Script:wght@400;500&family=Montserrat:wght@100;300;400;700;900&family=Roboto:wght@400;700&display=swap');/* navbar */
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    margin-left: 1rem;
+}
+
+.nav-item a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+/* introduction */
+
+#introduction{
+    padding: 5% 0;
+    background-color: #F9F7F7;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.userName{
+    background-color: black;
+    padding: 0.5rem 2rem;
+    font-family: 'Dancing Script', cursive;
+    visibility: hidden;
+}
+/* quotes */
+#quotes{
+    padding: 5% 0;
+}
+
+#carousel-quotes{
+    padding:5%;
+}
+
+.carousel-item h2,.carousel-item h3{
+    color: #3F72AF;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.carousel-item h2{
+    font-size: 3rem;
+}
+
+/* myself */
+#myself div{
+    /* text-align: center; */
+    padding: 5% 25%;
+    color: black;
+    background-color: #F9F7F7;
+}
+#myself p{
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 2.5;
+}
+
+/* favourites */
+#favourites{
+    padding: 5% 0;
+}
+.card{
+    margin: 0;
+}
+.card-group{
+    padding: 5% 10%;
+}
+.card-header, .card-body h3, .card-footer{
+    text-align: center;
+}
+.card-body h3{
+    font-family: 'Aref Ruqaa', serif;
+}
+.card-body ul{
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.card-footer a{
+    width: 100%;
+}
+
+
+@media screen and (max-width:992px) {
+    #introduction{
+        padding: 10% 5%;
+    }
+    #introduction div h3, #introduction div h4{
+        text-align: center;
+    }
+    .carousel-inner{
+        padding: 5% 10%;
+    }
+    #myself div{
+        padding: 5% 15%;
+    }
+}
