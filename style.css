@@ -18,14 +18,12 @@
 
 #introduction{
     padding: 5% 0;
-    background-color: black;
-    color: white;
+    background-color: #F9F7F7;
     font-family: 'Montserrat',sans-serif;
 }
 
 .userName{
-    background-color: white;
-    color: black;
+    background-color: black;
     padding: 0.5rem 2rem;
     font-family: 'Dancing Script', cursive;
     visibility: hidden;
@@ -35,7 +33,12 @@
     padding: 5% 0;
 }
 
+#carousel-quotes{
+    padding:5%;
+}
+
 .carousel-item h2,.carousel-item h3{
+    color: #3F72AF;
     font-size: 2rem;
     font-family: 'Dancing Script', cursive;
     text-align: center;
@@ -49,8 +52,8 @@
 #myself div{
     /* text-align: center; */
     padding: 5% 25%;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #F9F7F7;
 }
 #myself p{
     font-size: 1.5rem;
@@ -59,6 +62,15 @@
 }
 
 /* favourites */
+#favourites{
+    padding: 5% 0;
+}
+.card{
+    margin: 0;
+}
+.card-group{
+    padding: 5% 10%;
+}
 .card-header, .card-body h3, .card-footer{
     text-align: center;
 }
@@ -74,19 +86,6 @@
     width: 100%;
 }
 
-/* contact */
-
-#contact{
-    background-color: black;
-    color: white;
-    padding: 3% 10% 4%;
-    text-align: center;
-}
-
-#contact div a i{
-    padding: 0 1% 2%;
-    color: white;
-}
 
 @media screen and (max-width:992px) {
     #introduction{

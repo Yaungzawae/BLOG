@@ -11,7 +11,7 @@ nav{
 
 
 .card{
-    margin: 2.5% 15%;
+    margin: 5% 15%;
     background-color: #F9F7F7;
 }
 img{
@@ -28,9 +28,4 @@ img{
 }
 .card-footer button{
     border-radius: 100%;
-}
-
-/* footer */
-#contact{
-    background-color: #3F72AF;
 }
