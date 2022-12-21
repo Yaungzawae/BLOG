@@ -1,8 +1,12 @@
 body{
     font-family: 'Montserrat',sans-serif;
+    background-color: #DBE2EF;
 }
-/* 
-navbar */
+/* nav */
+
+nav{
+    background-color: #112D4E;
+}
 
 .navbar-brand {
     font-family: 'Montserrat', sans-serif;
@@ -19,7 +23,7 @@ navbar */
     padding: 0 1rem;
 }
 #contact{
-    background-color: black;
+    background-color: #3F72AF;
     color: white;
     padding: 3% 10% 4%;
     text-align: center;
@@ -28,4 +32,11 @@ navbar */
 #contact div a i{
     padding: 0 1% 2%;
     color: white;
+}
+
+/* card for movies/hobbies/courses */
+
+.card{
+    margin: 5% 15%;
+    background-color: #F9F7F7;
 }

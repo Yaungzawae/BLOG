@@ -1,9 +1,7 @@
-var audio;
-
 var interstellar = new Audio("audio/interstellar.mp3");
 var got = new Audio("audio/gameofthrones.mp3");
 var dark = new Audio("audio/dark.mp3")
-var all = [interstellar,got,dark];
+var all = [makeMusic("interstellar"),makeMusic("gameofthrones"),makeMusic("dark")];
 var buttonList = document.querySelectorAll('.card-footer button');
 for (let i = 0; i < buttonList.length; i++){
     buttonList[i].addEventListener("click", function(){
@@ -13,21 +11,19 @@ for (let i = 0; i < buttonList.length; i++){
 
 function matchMusic(trigg){
     trigg.firstElementChild.classList.toggle("fa-circle-pause");
-    var a = trigg.firstElementChild;
-    console.log(a);
     var image = trigg.parentNode.parentNode.firstElementChild.firstElementChild.alt;
 
     switch (image) {
         case "interstellar.jpg":
-            toogleMusic(interstellar, trigg);
+            toogleMusic(all[0], trigg);
             break;
 
         case "gameofthrones.jpg":
-            toogleMusic(got, trigg);
+            toogleMusic(all[1], trigg);
             break;
         
         case "dark.jpg":
-            toogleMusic(dark , trigg);
+            toogleMusic(all[2], trigg);
             break;
     
         default:
@@ -48,5 +44,9 @@ function toogleMusic(music, btn){
         return music.pause();
     }
     // return music.paused ? music.play() : music.pause();
+}
+
+function makeMusic(name){
+    return new Audio("audio/"+name+".mp3");
 }
 
